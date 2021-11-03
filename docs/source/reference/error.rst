@@ -1,8 +1,8 @@
 ``error``
 =========
 
-Error handling for the Pyrots library.
+Error handling for the OwlPy library.
 
-.. automodule:: pyrots.error
+.. automodule:: owlpy.error
     :show-inheritance:
     :members:

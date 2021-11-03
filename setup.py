@@ -2,18 +2,18 @@
 from setuptools import setup
 
 setup(
-    name='pyrots',
+    name='owlpy',
     version='0.0.1',
-    author='The Pyrots Developers',
+    author='The OwlPy Developers',
     maintainer='Sebastian Heimann',
     maintainer_email='sebastian.heimann@uni-potsdam.de',
     license='AGPLv3',
     package_dir={
-        'pyrots': 'src'
+        'owlpy': 'src'
     },
     packages=[
-        'pyrots',
-        'pyrots.polarisation',
+        'owlpy',
+        'owlpy.polarisation',
     ],
     install_requires=[
         'numpy',

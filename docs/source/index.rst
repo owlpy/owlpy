@@ -1,7 +1,7 @@
-Pyrots
+OwlPy
 ======
 
-A collection of rotational seismology methods implemented in Python.
+Tools for many-component seismology
 
 Contents
 --------

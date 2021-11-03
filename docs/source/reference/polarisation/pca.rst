@@ -1,6 +1,6 @@
 ``polarisation.pca``
 ====================
 
-.. automodule:: pyrots.polarisation.pca
+.. automodule:: owlpy.polarisation.pca
     :show-inheritance:
     :members:

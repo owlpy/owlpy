@@ -1,12 +1,12 @@
-# Pyrots development environment and contribution guide
+# OwlPy development environment and contribution guide
 
 ## Language
 
-Pyrots is written in the Python programming language (version >=3.6).
+OwlPy is written in the Python programming language (version >=3.6).
 
 ## Deployment
 
-Pyrots uses Setuptools for its installation script. See `setup.py` and
+OwlPy uses Setuptools for its installation script. See `setup.py` and
 `setup.cfg` in the project root directory.
 
 ## Testing
@@ -30,7 +30,7 @@ flake8 is run, tests are run, test coverage is measured and docs are built.
 Git is used for version control. Use development branches for new features.
 Master branch should always point to a stable version.
 
-The Pyrot project adheres to [Semantic Versioning](https://semver.org).
+The OwlPy project adheres to [Semantic Versioning](https://semver.org).
 
 Notable changes must be documented in the file `CHANGELOG.md`. The format of
 the change log is based on [Keep a
@@ -77,7 +77,7 @@ merge commits.
 
 ## Code style
 
-Pyrots source code must follow the PEP8 coding standards. It must pass the
+OwlPy source code must follow the PEP8 coding standards. It must pass the
 code style check provided by the `flake8` tool.
 
 Additionally,
@@ -113,7 +113,7 @@ pre-commit install
 
 ## Documentation
 
-Pyrots's documentation is built using the `Sphinx` tool. See the `docs`
+OwlPy's documentation is built using the `Sphinx` tool. See the `docs`
 in the project's root directory. Build with `make html` in `docs`.
 
 *Text style rules:*

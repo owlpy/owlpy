@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
-# Pyrots - AGPLv3
+# OwlPy - AGPLv3
 #
-# This file is part of the Pyrots library. For licensing information see the
+# This file is part of the OwlPy library. For licensing information see the
 # accompanying file `LICENSE`.
 #
-# The Pyrots Developers, 21st century
+# The OwlPy Developers, 21st century
 # -----------------------------------------------------------------------------
 
 
@@ -21,7 +21,7 @@ except ImportError:
     OTrace = None
 
 
-from .error import PyrotsError
+from .error import OwlPyError
 
 
 def _all_same(xs):
@@ -61,7 +61,7 @@ def get_traces_data_as_array(traces):
         or :py:class:`pyrocko.Trace <pyrocko.trace.Trace>` objects
 
     :raises:
-        :py:class:`~pyrots.error.PyrotsError` if traces have different time
+        :py:class:`~owlpy.error.OwlPyError` if traces have different time
         span, sample rate or data type, or if traces is an empty list.
 
     :returns:
@@ -71,7 +71,7 @@ def get_traces_data_as_array(traces):
     '''
 
     if not traces:
-        raise PyrotsError('Need at least one trace.')
+        raise OwlPyError('Need at least one trace.')
 
     udata = [_unpack_trace(tr) for tr in traces]
 
@@ -80,7 +80,7 @@ def get_traces_data_as_array(traces):
             for (data, deltat, tmin)
             in udata]):
 
-        raise PyrotsError(
+        raise OwlPyError(
             'Given traces are incompatible. Unable to join multiple '
             'components into a single 2D array. Sampling rate, start time, '
             'number of samples and data type must match.')

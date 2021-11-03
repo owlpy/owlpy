@@ -1,3 +1,3 @@
-# The Pyrots developers
+# The OwlPy developers
 
 * Sebastian Heimann

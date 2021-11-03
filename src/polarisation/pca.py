@@ -1,23 +1,23 @@
 # -----------------------------------------------------------------------------
-# Pyrots - AGPLv3
+# OwlPy - AGPLv3
 #
-# This file is part of the Pyrots library. For licensing information see the
+# This file is part of the OwlPy library. For licensing information see the
 # accompanying file `LICENSE`.
 #
-# The Pyrots Developers, 21st century
+# The OwlPy Developers, 21st century
 # -----------------------------------------------------------------------------
 
 
 import numpy as np
 
-from pyrots.error import PyrotsError
-from pyrots.util import get_traces_data_as_array
+from owlpy.error import OwlPyError
+from owlpy.util import get_traces_data_as_array
 
 
 r2d = 180. / np.pi
 
 
-class PCAError(PyrotsError):
+class PCAError(OwlPyError):
     '''
     Raised when PCA failed.
     '''
@@ -37,7 +37,7 @@ def pca(traces):
         or :py:class:`pyrocko.Trace <pyrocko.trace.Trace>` objects
 
     :raises:
-        :py:exc:`~pyrots.error.PyrotsError` if the input traces are
+        :py:exc:`~owlpy.error.OwlPyError` if the input traces are
         incompatible, :py:exc:`PCAError` if the traces are too short.
 
     :returns:

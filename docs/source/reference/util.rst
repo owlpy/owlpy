@@ -1,8 +1,8 @@
 ``util``
 ========
 
-Utility functions for the Pyrots library.
+Utility functions for the OwlPy library.
 
-.. automodule:: pyrots.util
+.. automodule:: owlpy.util
     :show-inheritance:
     :members:

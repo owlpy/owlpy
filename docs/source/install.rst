@@ -13,20 +13,20 @@ Dependencies
 Installation using pip
 ----------------------
 
-You can install the Pyrots library using pip. Use the ``--no-deps`` option to
+You can install the OwlPy library using pip. Use the ``--no-deps`` option to
 prevent pip from installing the dependencies automatically.
 
 .. code-block:: bash
 
-    pip3 install https://github.com/rotational-seismology/pyrots.git --no-deps
+    pip3 install https://github.com/owlpy/owlpy.git --no-deps
 
 Installation from source
 ------------------------
 
 .. code-block:: bash
 
-   git clone https://github.com/rotational-seismology/pyrots.git
-   cd pyrots
+   git clone https://github.com/owlpy/owlpy.git
+   cd owlpy
    pip3 install . --no-deps
    # or
    python3 setup.py install

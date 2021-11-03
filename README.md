@@ -1,19 +1,18 @@
-# Pyrots
-A collection of rotational seismology methods implemented in Python.
+# OwlPy
+Tools for many-component seismology
 
 ## Documentation and installation
 
-Find documentation and installation instructions in [Pyrots' documentation
-preview](https://data.pyrocko.org/scratch/pyrots).
+Find documentation and installation instructions in [OwlPy's documentation
+preview](https://owlpy.org/doc).
 
 ## Contributing
 
-Please see the file [`CONTRIBUTING.md`](CONTRIBUTING.md) if you want to become
-a Pyrot.
+Please see the file [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Licence
 
-Pyrots is licenced under the [GNU Affero General Public License
+OwlPy is licenced under the [GNU Affero General Public License
 (AGPLv3)](LICENCE).
 
 ## Contact

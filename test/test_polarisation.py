@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
-# Pyrots - AGPLv3
+# OwlPy - AGPLv3
 #
-# This file is part of the Pyrots library. For licensing information see the
+# This file is part of the OwlPy library. For licensing information see the
 # accompanying file `LICENSE`.
 #
-# The Pyrots Developers, 21st century
+# The OwlPy Developers, 21st century
 # -----------------------------------------------------------------------------
 
 
@@ -14,7 +14,7 @@ import numpy as np
 from pyrocko import trace as ptrace, util as putil
 from pyrocko.obspy_compat import to_obspy_trace
 
-from pyrots.polarisation import pca
+from owlpy.polarisation import pca
 
 d2r = np.pi/180.
 

@@ -1,7 +1,7 @@
 Reference
 =========
 
-This section describes the API of the Pyrots library.
+This section describes the API of the OwlPy library.
 
 .. toctree::
     :caption: Contents
