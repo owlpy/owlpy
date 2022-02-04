@@ -4,7 +4,7 @@ Tools for many-component seismology
 ## Documentation and installation
 
 Find documentation and installation instructions in [OwlPy's documentation
-preview](https://owlpy.org/doc).
+preview](https://owlpy.org/).
 
 ## Contributing
 
