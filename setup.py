@@ -14,6 +14,7 @@ setup(
     packages=[
         'owlpy',
         'owlpy.polarisation',
+        'owlpy.tilt',
     ],
     install_requires=[
         'numpy',

@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'OwlPy'
-copyright = '2021, The OwlPy Developers'
+copyright = '2022, The OwlPy Developers'
 author = 'The OwlPy Developers'
 
 # The short X.Y version

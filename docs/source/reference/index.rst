@@ -1,5 +1,5 @@
-Reference
-=========
+API Reference
+=============
 
 This section describes the API of the OwlPy library.
 
@@ -9,5 +9,6 @@ This section describes the API of the OwlPy library.
     :includehidden:
     
     polarisation/index
+    tilt/index
     util
     error

@@ -10,15 +10,15 @@ Tools to perform polarisation analysis on rotational (and other) seismic data.
     * - Submodule
       - Description
     * - :py:mod:`~owlpy.polarisation.pca`
-      - Principal component analysis (PCA) allows you to extract the
-        polarisation of the dominant signal in a 2- or 3-component recording.
+      - Extract polarisation of the dominant signal in a 2- or 3-component
+        seismic recording using principal component analysis (PCA).
     * - :py:mod:`~owlpy.polarisation.gridsearch`
-      - Get polarization of passing SH/Love waves by exploiting correlation
-        between vertical rotational and horizontal acceleration by grid search
-        over possible azimuths.
+      - Get polarization of passing SH/Love waves through exploitation of the
+        correlation between vertical rotational and horizontal acceleration by
+        grid search over possible azimuths.
 
 .. toctree::
     :caption: Contents
-    
+
     pca
     gridsearch

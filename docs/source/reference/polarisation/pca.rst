@@ -1,5 +1,5 @@
-``polarisation.pca``
-====================
+``pca``
+=======
 
 .. automodule:: owlpy.polarisation.pca
     :show-inheritance:
