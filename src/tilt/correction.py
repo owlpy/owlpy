@@ -127,7 +127,8 @@ def remove_tilt(
     See the ``method`` argument for different correction options.
     The correction can optionally be applied only in a selected frequency band.
 
-    The method is described in [BernauerEtAl2020]_.
+    The method is described in [BernauerEtAl2020]_ and is based on the work of
+    [CrawfordAndWebb2000]_.
 
     :param response:
         Data samples of the accelerometer signal [m/s**2].

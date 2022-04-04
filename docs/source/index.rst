@@ -6,7 +6,7 @@ Tools for many-component seismology.
 OwlPy is an open collection of software building blocks useful for the
 processing of rotational, strain, and tilt seismogram recordings.
 
-Currently, it includes methods to perform
+Currently implemented methods include
 
 - polarization analysis
 - and tilt noise correction.
@@ -23,6 +23,7 @@ Documentation
    :maxdepth: 2
 
    install
+   examples/index
    reference/index
    references
 
