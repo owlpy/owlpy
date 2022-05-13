@@ -76,15 +76,21 @@ def get_traces_data_as_array(traces):
 
     udata = [_unpack_trace(tr) for tr in traces]
 
-    if not _all_same([
-            (data.size, data.dtype, deltat, tmin)
-            for (data, deltat, tmin)
-            in udata]):
+    params = [
+        (data.size, data.dtype, deltat, tmin)
+        for (data, deltat, tmin)
+        in udata]
+
+    if not _all_same(params):
 
         raise OwlPyError(
             'Given traces are incompatible. Unable to join multiple '
             'components into a single 2D array. Sampling rate, start time, '
-            'number of samples and data type must match.')
+            'number of samples and data type must match.\n%s\n%s' % (
+                '  %10s %-10s %12s %22s' % (
+                    'samples', 'dtype', 'deltat', 'tmin'),
+                '\n'.join(
+                    '  %10i %-10s %12.5e %22.16e' % vec for vec in params)))
 
     return np.vstack([data for (data, _, _) in udata])
 
