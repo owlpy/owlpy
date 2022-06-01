@@ -44,7 +44,7 @@ def _unpack_trace(tr):
         return (
             tr.data,
             1.0/tr.stats.sampling_rate,
-            tr.starttime.timestamp)
+            tr.stats.starttime.timestamp)
     else:
         raise TypeError(
             'Expected ObsPy or Pyrocko trace but got object of type "%s".'
